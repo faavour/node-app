@@ -1,6 +1,6 @@
-name: CI
+name: Continous Integration
 on:
-  workflow_dispatch:
+  push
 env:
   IMAGE_NAME: node-web-app
   
